@@ -21,9 +21,16 @@ void zadanie1() {
     for (auto itr = path.begin(); itr != path.end(); itr++) {
         std::cout << *itr << std::endl;
      }
+    
+    std::cout << path.root_path() << std::endl;
+	std::cout << path.relative_path() << std::endl;
+	std::cout << path.parent_path() << std::endl;
+	std::cout << path.filename() << std::endl;
+	std::cout << path.stem() << std::endl;
+	std::cout << path.extension() << std::endl;
+	if (std::filesystem::exists(path)) std::cout << "istnieje" << std::endl;
+	else std::cout << "nie istnieje" << std::endl;
 }
-
-
 
 // Zadanie 2 
 // Utwórz folder o nazwie "ZmianaNazwy" w dowolnej 
@@ -38,20 +45,15 @@ void zadanie1() {
 // W celu rozwiązania problemu należy usunąć utworzony folder.
 
 void zadanie2() {
-    std::filesystem::path source("C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\ZmianaNazwy"); //<- dodać ścieżkę do folderu w którym
+    std::filesystem::path source("C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\LabFS\\Foldery\\nowy\\ZmianaNazwy"); //<- dodać ścieżkę do folderu w którym
     // zostanie utworzony folder z zadania (najlepiej pusty)
     //Rozwiązanie
-    std::filesystem::path source2("C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\ZmienionaNazwa"); //<- dodać ścieżkę do folderu w którym
-
-    std::cout << std::filesystem::exists(source) << std::endl;
-    std::cout << std::filesystem::exists(source2) << std::endl;
-
-    std::filesystem::create_directory(source);
-
-    std::cout << std::filesystem::exists(source) << std::endl;
-    std::cout << std::filesystem::exists(source) << std::endl;
-
-    std::filesystem::rename(source, source2);
+    std::filesystem::create_directory("C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\LabFS\\Foldery\\nowy");
+    
+	std::filesystem::create_directory(source);
+    
+	std::filesystem::rename(source, "C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\LabFS\\Foldery\\nowy\\ZmienionaNazwa");
+	std::cout << std::filesystem::exists("C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\LabFS\\Foldery\\nowy\\ZmienionaNazwa") << std::endl;
 }
 
 // Zadanie 3
@@ -61,9 +63,9 @@ void zadanie2() {
 
 void zadanie3() {
 
-    std::filesystem::path source("C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\ZmienionaNazwa"); //<- dodać sieżkę do folderu z zadania 2
+    std::filesystem::path source("C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\LabFS\\Foldery\\nowy"); //<- dodać sieżkę do folderu z zadania 2
 
-    std::filesystem::create_directory("C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\ZmienionaNazwa\\NowyFolder");
+    std::filesystem::create_directory("C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\LabFS\\Foldery\\nowy\\ZmienionaNazwa\\NowyFolder");
 
     std::filesystem::copy(source, "C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\LabFS\\Foldery\\Kopia", std::filesystem::copy_options::recursive);
 
@@ -118,6 +120,18 @@ void zadanie5() {
     else {
         std::filesystem::copy(plik2, plik3);
     }
+    
+    for (auto item : std::filesystem::directory_iterator(plik3)) {
+		std::cout << item << std::endl;
+	}
+	if (std::filesystem::last_write_time("C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\LabFS\\Foldery\\Czas\\plik_graficzny.bmp") > std::filesystem::last_write_time("C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\LabFS\\Foldery\\Czas\\plik_tekstowy.txt")) {
+		std::filesystem::copy("C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\LabFS\\Foldery\\Czas\\plik_graficzny.bmp", plik4);
+	}
+	else {
+		std::filesystem::copy("C:\\Users\\SuperStudent.PL\\Desktop\\FileSystem-zadania\\LabFS\\Foldery\\Czas\\plik_tekstowy.txt", plik4);
+	}
+ 
+	std::cout << std::filesystem::file_size(plik4) << std::endl;
     // Rozwiązanie
 
 }
