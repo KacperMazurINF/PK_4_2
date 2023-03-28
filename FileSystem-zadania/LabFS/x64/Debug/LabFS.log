@@ -1,0 +1,6 @@
+﻿  LabFS.cpp
+C:\Users\SuperStudent.PL\Desktop\FileSystem-zadania\LabFS\LabFS.cpp(113,27): warning C4930: "std::filesystem::path plik4(void)": prototypowana funkcja nie została wywołana (czy definicja zmiennej była zamierzona?)
+C:\Users\SuperStudent.PL\Desktop\FileSystem-zadania\LabFS\LabFS.cpp(111,27): warning C4930: "std::filesystem::path plik2(void)": prototypowana funkcja nie została wywołana (czy definicja zmiennej była zamierzona?)
+C:\Users\SuperStudent.PL\Desktop\FileSystem-zadania\LabFS\LabFS.cpp(112,27): warning C4930: "std::filesystem::path plik3(void)": prototypowana funkcja nie została wywołana (czy definicja zmiennej była zamierzona?)
+C:\Users\SuperStudent.PL\Desktop\FileSystem-zadania\LabFS\LabFS.cpp(110,27): warning C4930: "std::filesystem::path plik1(void)": prototypowana funkcja nie została wywołana (czy definicja zmiennej była zamierzona?)
+  LabFS.vcxproj -> C:\Users\SuperStudent.PL\Desktop\FileSystem-zadania\LabFS\x64\Debug\LabFS.exe
