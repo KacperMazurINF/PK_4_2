@@ -1,0 +1,12 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\superstudent\\desktop\\lab1_moduly\\zadanie3.ixx",
+        "ProvidedModule": "Zadanie3",
+        "ImportedModules": [
+            "Zadanie3:Pokoj",
+            "Zadanie3:Dom"
+        ],
+        "ImportedHeaderUnits": []
+    }
+}

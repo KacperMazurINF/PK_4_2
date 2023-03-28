@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\superstudent\\desktop\\lab1_moduly\\zadanie3.ixx",
+        "ProvidedModule": "Zadanie3",
+        "Includes": [],
+        "ImportedModules": [
+            {
+                "Name": "Zadanie3:Pokoj",
+                "BMI": "C:\\Users\\SuperStudent\\Desktop\\Lab1_Moduly\\Debug\\Zadanie3-Pokoj.ixx.ifc.dt"
+            },
+            {
+                "Name": "Zadanie3:Dom",
+                "BMI": "C:\\Users\\SuperStudent\\Desktop\\Lab1_Moduly\\Debug\\Zadanie3-Dom.ixx.ifc.dt"
+            }
+        ],
+        "ImportedHeaderUnits": []
+    }
+}
