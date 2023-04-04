@@ -1,0 +1,77 @@
+﻿  Lab4-Ranges.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(158,47): warning C4244: "inicjowanie": konwersja z "_Ty" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(245): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)” funkcji szablon
+          with
+          [
+              _This=float,
+              _Ty=double,
+              _Other=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(245): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)” funkcji szablon
+          with
+          [
+              _This=float,
+              _Ty=double,
+              _Other=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(245): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::tuple<float>::tuple<std::_Exact_args_t,_Ty,,0>(_Tag,_This2 &&)” funkcji szablon
+          with
+          [
+              _Ty=double,
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(245): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::tuple<float>::tuple<std::_Exact_args_t,_Ty,,0>(_Tag,_This2 &&)” funkcji szablon
+          with
+          [
+              _Ty=double,
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(245): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::tuple<int,float>::tuple<std::_Exact_args_t,_Ty,double,0>(_Tag,_This2 &&,double &&)” funkcji szablon
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(245): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::tuple<int,float>::tuple<std::_Exact_args_t,_Ty,double,0>(_Tag,_This2 &&,double &&)” funkcji szablon
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(327): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::tuple<std::string,int,float>::tuple<std::_Exact_args_t,const char(&)[6],_Ty,double,0>(_Tag,_This2,_Ty &&,double &&)” funkcji szablon
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=const char (&)[6]
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple(327): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::tuple<std::string,int,float>::tuple<std::_Exact_args_t,const char(&)[6],_Ty,double,0>(_Tag,_This2,_Ty &&,double &&)” funkcji szablon
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=const char (&)[6]
+          ]
+D:\Projects\POLSL\PK4sem\lab4\Lab4-Ranges\Lab4-Ranges\Lab4-Ranges.cpp(82): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::tuple<std::string,int,float>::tuple<const char(&)[6],int,double,0>(_This2,int &&,double &&) noexcept(false)” funkcji szablon
+          with
+          [
+              _This2=const char (&)[6]
+          ]
+D:\Projects\POLSL\PK4sem\lab4\Lab4-Ranges\Lab4-Ranges\Lab4-Ranges.cpp(75): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::tuple<std::string,int,float>::tuple<const char(&)[6],int,double,0>(_This2,int &&,double &&) noexcept(false)” funkcji szablon
+          with
+          [
+              _This2=const char (&)[6]
+          ]
+  Lab4-Ranges.vcxproj -> D:\Projects\POLSL\PK4sem\lab4\Lab4-Ranges\Debug\Lab4-Ranges.exe

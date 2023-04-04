@@ -1,0 +1,73 @@
+﻿  Lab4-Ranges.cpp
+C:\Users\SuperStudent\Desktop\Lab4-Ranges\Lab4-Ranges\Lab4-Ranges\Lab4-Ranges.cpp(140,34): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\type_traits(1595,67): warning C4244: "argument": konwersja z "_Ty1" do "int", możliwa utrata danych
+          with
+          [
+              _Ty1=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\type_traits(1946): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „bool std::invoke<bool(__cdecl *&)(int),double,>(_Callable,_Ty1 &&) noexcept(false)” funkcji szablon
+          with
+          [
+              _Callable=bool (__cdecl *&)(int),
+              _Ty1=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\type_traits(1593): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „bool std::reference_wrapper<bool (__cdecl *)(int)>::operator ()<_Ty1>(_Ty1 &&) noexcept(false) const” funkcji szablon
+          with
+          [
+              _Ty1=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\type_traits(1595): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „bool std::reference_wrapper<bool (__cdecl *)(int)>::operator ()<_Ty1>(_Ty1 &&) noexcept(false) const” funkcji szablon
+          with
+          [
+              _Ty1=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\xutility(5659): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „bool std::invoke<std::reference_wrapper<bool (__cdecl *)(int)>&,_Ty,>(_Callable,_Ty1 &&) noexcept(false)” funkcji szablon
+          with
+          [
+              _Ty=double,
+              _Callable=std::reference_wrapper<bool (__cdecl *)(int)> &,
+              _Ty1=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\xutility(5676): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „_It std::ranges::_Find_if_unchecked<_Iter,_Iter,_Fn,std::reference_wrapper<bool (__cdecl *)(int)>>(_It,const _Se,_Pr,_Pj)” funkcji szablon
+          with
+          [
+              _It=std::ranges::transform_view<std::ranges::filter_view<std::ranges::iota_view<int,int>,bool (__cdecl *)(int)>,Zadanie5::<lambda_2>>::_Iterator<false>,
+              _Iter=std::ranges::transform_view<std::ranges::filter_view<std::ranges::iota_view<int,int>,bool (__cdecl *)(int)>,Zadanie5::<lambda_2>>::_Iterator<false>,
+              _Fn=std::identity,
+              _Se=std::ranges::transform_view<std::ranges::filter_view<std::ranges::iota_view<int,int>,bool (__cdecl *)(int)>,Zadanie5::<lambda_2>>::_Iterator<false>,
+              _Pr=std::reference_wrapper<bool (__cdecl *)(int)>,
+              _Pj=std::identity
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\ranges(1164): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „_It std::ranges::_Find_if_fn::operator ()<std::ranges::transform_view<std::ranges::filter_view<std::ranges::iota_view<_Ty1,_Ty2>,bool (__cdecl *)(int)>,_Ty>::_Iterator<false>,std::ranges::transform_view<std::ranges::filter_view<std::ranges::iota_view<_Ty1,_Ty2>,bool (__cdecl *)(int)>,_Ty>::_Iterator<false>,std::identity,std::reference_wrapper<bool (__cdecl *)(int)>>(_It,_Se,_Pr,_Pj) const” funkcji szablon
+          with
+          [
+              _It=std::ranges::transform_view<std::ranges::filter_view<std::ranges::iota_view<int,int>,bool (__cdecl *)(int)>,Zadanie5::<lambda_2>>::_Iterator<false>,
+              _Ty1=int,
+              _Ty2=int,
+              _Ty=Zadanie5::<lambda_2>,
+              _Se=std::ranges::transform_view<std::ranges::filter_view<std::ranges::iota_view<int,int>,bool (__cdecl *)(int)>,Zadanie5::<lambda_2>>::_Iterator<false>,
+              _Pr=std::reference_wrapper<bool (__cdecl *)(int)>,
+              _Pj=std::identity
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\ranges(1158): message : podczas kompilowania funkcji składowej „std::ranges::filter_view<std::ranges::transform_view<std::ranges::filter_view<std::ranges::iota_view<_Ty1,_Ty2>,bool (__cdecl *)(int)>,_Ty>,bool (__cdecl *)(int)>::_Iterator &std::ranges::filter_view<std::ranges::transform_view<std::ranges::filter_view<std::ranges::iota_view<_Ty1,_Ty2>,bool (__cdecl *)(int)>,_Ty>,bool (__cdecl *)(int)>::_Iterator::operator ++(void)” klasy klasa szablon
+          with
+          [
+              _Ty1=int,
+              _Ty2=int,
+              _Ty=Zadanie5::<lambda_2>
+          ]
+C:\Users\SuperStudent\Desktop\Lab4-Ranges\Lab4-Ranges\Lab4-Ranges\Lab4-Ranges.cpp(140): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::ranges::filter_view<std::ranges::transform_view<std::ranges::filter_view<std::ranges::iota_view<_Ty1,_Ty2>,bool (__cdecl *)(int)>,_Ty>,bool (__cdecl *)(int)>::_Iterator &std::ranges::filter_view<std::ranges::transform_view<std::ranges::filter_view<std::ranges::iota_view<_Ty1,_Ty2>,bool (__cdecl *)(int)>,_Ty>,bool (__cdecl *)(int)>::_Iterator::operator ++(void)” funkcji szablon
+          with
+          [
+              _Ty1=int,
+              _Ty2=int,
+              _Ty=Zadanie5::<lambda_2>
+          ]
+C:\Users\SuperStudent\Desktop\Lab4-Ranges\Lab4-Ranges\Lab4-Ranges\Lab4-Ranges.cpp(140): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::ranges::filter_view<std::ranges::transform_view<std::ranges::filter_view<std::ranges::iota_view<_Ty1,_Ty2>,bool (__cdecl *)(int)>,_Ty>,bool (__cdecl *)(int)>::_Iterator” klasy klasa szablon
+          with
+          [
+              _Ty1=int,
+              _Ty2=int,
+              _Ty=Zadanie5::<lambda_2>
+          ]
+  Lab4-Ranges.vcxproj -> C:\Users\SuperStudent\Desktop\Lab4-Ranges\Lab4-Ranges\x64\Debug\Lab4-Ranges.exe
